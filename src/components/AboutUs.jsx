@@ -10,7 +10,7 @@ function AboutUs() {
         <div className="about-hero-overlay"></div>
         <div className="about-hero-content">
           <h1>About Dinesh Laal's Shop</h1>
-          <p>Bringing fresh groceries to your doorstep since 2005</p>
+          <p>Serving generations with quality and trust for over 180 years</p>
         </div>
       </div>
 
@@ -19,19 +19,26 @@ function AboutUs() {
           <div className="about-section-content">
             <h2>Our Story</h2>
             <p>
-              Dinesh Laal's Shop began as a small family-owned grocery store in the heart of Kathmandu. Founded by
-              Dinesh Laal Shrestha in 2005, our shop has grown from a modest corner store to one of the most trusted
-              grocery retailers in the area.
+              With a history spanning more than 180 years and four generations, Dinesh Laal's Shop is one of Nepal's
+              oldest and most trusted family-run businesses. It began as a home-based operation, founded in the name of
+              Jaki Gopal (JG), offering cleaned and packed goods with home delivery—a rare service for its time.
             </p>
             <p>
-              What started as a passion for providing fresh, quality produce to the local community has evolved into a
-              comprehensive grocery service that combines traditional values with modern convenience.
+              The shop's values were built by generations of hard work and integrity. In 2048 B.S., Dinesh Laal joined
+              his father in running the store. Over the past 25 years, he has taken full responsibility and continued to
+              uphold its rich legacy—even as his brothers moved abroad.
+            </p>
+            <p>
+              Today, the shop remains known for its unmatched quality: local rice from Nala and Panauti, traditionally
+              made ghee passed down through three generations, and mustard oil pressed from pure Nepali seeds. Many of
+              these items are still prepared in-house, with family members personally sourcing and producing the goods.
+              This is more than a grocery shop—it's a heritage of trust, purity, and local pride.
             </p>
           </div>
           <div className="about-section-image">
             <img
-              src="https://images.unsplash.com/photo-1542838132-92c53300491e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
-              alt="Traditional grocery store"
+              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202025-06-12%20at%2017.54.19_7fbe2e50.jpg-yrAA83mHsJJdC4NLdp3w3Vfv7OrD6q.jpeg"
+              alt="Dinesh Laal in his shop"
             />
           </div>
         </section>
@@ -40,20 +47,25 @@ function AboutUs() {
           <div className="about-section-content">
             <h2>Our Mission</h2>
             <p>
-              At Dinesh Laal's Shop, our mission is to provide our customers with the freshest groceries, exceptional
-              service, and a convenient shopping experience. We believe that everyone deserves access to quality food at
-              reasonable prices.
+              At Dinesh Laal's Shop, our mission is rooted in more than just selling groceries — it is about preserving
+              a legacy. We are committed to offering products that are not only fresh and local but also carry the
+              richness of Nepal's agricultural tradition and cultural heritage.
             </p>
             <p>
-              We work directly with local farmers and suppliers to ensure that our products meet the highest standards
-              of quality and freshness. By supporting local producers, we also contribute to the sustainability of our
-              community.
+              Our goal is to provide every household with honest, authentic, and health-conscious food. From hand-milled
+              grains and pure ghee to traditional mustard oil and heirloom rice, we focus on delivering food that people
+              can trust and feel proud to serve at their tables.
+            </p>
+            <p>
+              We work closely with millers, and local producers to ensure that everything we offer is ethically sourced
+              and environmentally responsible. By supporting local supply chains, we not only ensure quality but also
+              help strengthen our community and encourage sustainable growth across generations.
             </p>
           </div>
           <div className="about-section-image">
             <img
-              src="https://images.unsplash.com/photo-1488459716781-31db52582fe9?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
-              alt="Fresh vegetables"
+              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202025-06-12%20at%2017.54.24_38908018.jpg-XQwMnOB8yZk0z3B7F0odiUfnzAz7W7.jpeg"
+              alt="Store shelves with traditional products"
             />
           </div>
         </section>
@@ -80,8 +92,8 @@ function AboutUs() {
               </div>
               <h3>Quality</h3>
               <p>
-                We never compromise on the quality of our products. Every item in our store meets our strict standards
-                for freshness and excellence.
+                Every item is selected or produced with care—from hand-milled grains to pure oils. Our customers trust
+                us for uncompromised quality, every time.
               </p>
             </div>
             <div className="about-value-card">
@@ -105,8 +117,8 @@ function AboutUs() {
               </div>
               <h3>Community</h3>
               <p>
-                We believe in building strong relationships with our customers and the community. Your satisfaction is
-                our top priority.
+                We've served generations of families in Kathmandu and beyond. Supporting local producers and offering
+                real value to our customers is part of our identity.
               </p>
             </div>
             <div className="about-value-card">
@@ -127,8 +139,8 @@ function AboutUs() {
               </div>
               <h3>Trust</h3>
               <p>
-                We've built our reputation on trust and transparency. What you see is what you get – no hidden costs or
-                compromises.
+                Our name carries the trust of four generations. Customers know that what we offer is honest, tested, and
+                true to its roots.
               </p>
             </div>
             <div className="about-value-card">
@@ -152,40 +164,38 @@ function AboutUs() {
               </div>
               <h3>Service</h3>
               <p>
-                We go above and beyond to provide exceptional customer service. Our friendly staff is always ready to
-                assist you.
+                From personalized advice to doorstep delivery, we provide customer care that's been part of our culture
+                since day one.
               </p>
             </div>
           </div>
         </section>
-
-        
 
         <section className="about-gallery">
           <h2>Our Store</h2>
           <div className="about-gallery-grid">
             <div className="about-gallery-item">
               <img
-                src="https://images.unsplash.com/photo-1534723452862-4c874018d66d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
-                alt="Store interior"
+                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202025-06-12%20at%2013.02.39_98fb68e4.jpg-QLZZ8PbPBzXrAIojqbhgO9KjUqvcn0.jpeg"
+                alt="Complete store interior view"
               />
             </div>
             <div className="about-gallery-item">
               <img
-                src="https://images.unsplash.com/photo-1583258292688-d0213dc5a3a8?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
-                alt="Fresh produce section"
+                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202025-06-12%20at%2017.54.23_5674b4e9.jpg-HnBn0BaPaViafedJjpTpN7C4lFqF09.jpeg"
+                alt="Organized grocery shelves"
               />
             </div>
             <div className="about-gallery-item">
               <img
-                src="https://images.unsplash.com/photo-1579113800032-c38bd7635818?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
-                alt="Grocery shelves"
+                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202025-06-12%20at%2017.54.28_ccab0cd6.jpg-3TQaxHW2cO9AXqKJvxszK6LPOCOHwh.jpeg"
+                alt="Traditional lentils and pulses in sacks"
               />
             </div>
             <div className="about-gallery-item">
               <img
-                src="https://images.unsplash.com/photo-1553546895-531931aa1aa8?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
-                alt="Checkout counter"
+                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202025-06-12%20at%2017.54.29_ba96b856.jpg-BJSstzO6Hh2qS62KBM2EAL00iJ1Y2W.jpeg"
+                alt="Variety of beans and legumes storage"
               />
             </div>
           </div>
@@ -195,8 +205,8 @@ function AboutUs() {
           <div className="about-cta-content">
             <h2>Visit Us Today</h2>
             <p>
-              Experience the difference at Dinesh Laal's Shop. We're located in the heart of Kathmandu and are open
-              seven days a week.
+              Located in the heart of Kathmandu, Dinesh Laal's Shop is open seven days a week. Stop by and experience a
+              legacy of quality, heritage, and hospitality.
             </p>
             <div className="about-cta-buttons">
               <Link to="/products" className="about-cta-button primary">

@@ -7,7 +7,7 @@
 .about-hero {
   position: relative;
   height: 500px;
-  background-image: url("https://images.unsplash.com/photo-1542838132-92c53300491e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80");
+  background-image: url("https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202025-06-12%20at%2017.54.30_1f4da080.jpg-iQmvFgZrfw8LdIXyo0rN6Ltn51yfKd.jpeg");
   background-size: cover;
   background-position: center;
   display: flex;
@@ -101,7 +101,8 @@
 
 .about-section-image img {
   width: 100%;
-  height: 400px;
+  
+  height: 500px;
   object-fit: cover;
   display: block;
   transition: transform 0.3s ease;
