@@ -308,7 +308,7 @@ function EditProduct() {
                   onChange={handleChange}
                   disabled={!formData.category}
                 >
-                  <option value="">Select Subcategory</option>
+                  <option value="">Select Subcategory(optional)</option>
                   {formData.category &&
                     categories
                       .find((cat) => cat._id === formData.category)
