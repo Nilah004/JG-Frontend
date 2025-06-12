@@ -21,7 +21,7 @@ function AboutUs() {
             <p>
               With a history spanning more than 180 years and four generations, Dinesh Laal's Shop is one of Nepal's
               oldest and most trusted family-run businesses. It began as a home-based operation, founded in the name of
-              Jaki Gopal (JG), offering cleaned and packed goods with home delivery—a rare service for its time.
+              Jaki Gopal (JG) (Dinesh Laal's Father), offering cleaned and packed goods with home delivery—a rare service for its time.
             </p>
             <p>
               The shop's values were built by generations of hard work and integrity. In 2048 B.S., Dinesh Laal joined
@@ -29,7 +29,7 @@ function AboutUs() {
               uphold its rich legacy—even as his brothers moved abroad.
             </p>
             <p>
-              Today, the shop remains known for its unmatched quality: local rice from Nala and Panauti, traditionally
+              Today, the shop remains known for its unmatched quality: local rice from Nala Panauti, traditionally
               made ghee passed down through three generations, and mustard oil pressed from pure Nepali seeds. Many of
               these items are still prepared in-house, with family members personally sourcing and producing the goods.
               This is more than a grocery shop—it's a heritage of trust, purity, and local pride.
