@@ -17,23 +17,17 @@ function AboutUs() {
       <div className="about-container">
         <section className="about-section">
           <div className="about-section-content">
-            <h2>Our Story</h2>
+            <h2>हाम्रो कथा</h2>
             <p>
-              With a history spanning more than 180 years and four generations, Dinesh Laal's Shop is one of Nepal's
-              oldest and most trusted family-run businesses. It began as a home-based operation, founded in the name of
-              Jaki Gopal (JG) (Dinesh Laal's Father), offering cleaned and packed goods with home delivery—a rare service for its time.
+              Our local store has been here for over 180 years. Four generations of my family have worked hard to give you good, clean, and honest products. It all started from our home, when my father, Jaki Gopal, began delivering packed goods to people—a rare thing at that time.
             </p>
             <p>
-              The shop's values were built by generations of hard work and integrity. In 2048 B.S., Dinesh Laal joined
-              his father in running the store. Over the past 25 years, he has taken full responsibility and continued to
-              uphold its rich legacy—even as his brothers moved abroad.
+              We’ve always believed in serving our customers with love, honesty, and care. In 2048 B.S., I joined my father in the shop. For the last 25 years, I have looked after the store with my full heart, even when my brothers moved abroad.
             </p>
             <p>
-              Today, the shop remains known for its unmatched quality: local rice from Nala Panauti, traditionally
-              made ghee passed down through three generations, and mustard oil pressed from pure Nepali seeds. Many of
-              these items are still prepared in-house, with family members personally sourcing and producing the goods.
-              This is more than a grocery shop—it's a heritage of trust, purity, and local pride.
+              Today, we are still known for our quality. We bring you rice from Nala Panauti, mustard oil made from pure Nepali seeds, and ghee made the traditional way—just like our grandparents used to. Many of these are still made by our family, with our own hands.
             </p>
+            <p>This store is more than a business. It’s my family’s promise to you—for trust, purity, and true Nepali taste. Thank you for being part of our journey.</p>
           </div>
           <div className="about-section-image">
             <img
@@ -45,21 +39,15 @@ function AboutUs() {
 
         <section className="about-section reverse">
           <div className="about-section-content">
-            <h2>Our Mission</h2>
+            <h2>हाम्रो उद्देश्य</h2>
             <p>
-              At Dinesh Laal's Shop, our mission is rooted in more than just selling groceries — it is about preserving
-              a legacy. We are committed to offering products that are not only fresh and local but also carry the
-              richness of Nepal's agricultural tradition and cultural heritage.
+              At our local store, my mission is more than just selling groceries. It's about keeping a family tradition alive. I want to offer you food that is fresh, local, and full of Nepal’s rich farming and cultural heritage.
             </p>
             <p>
-              Our goal is to provide every household with honest, authentic, and health-conscious food. From hand-milled
-              grains and pure ghee to traditional mustard oil and heirloom rice, we focus on delivering food that people
-              can trust and feel proud to serve at their tables.
+              My goal is to bring every home honest, pure, and healthy food. From hand-milled grains and pure ghee to traditional mustard oil and heirloom rice, I focus on giving you food that you can trust and proudly serve at your table.
             </p>
             <p>
-              We work closely with millers, and local producers to ensure that everything we offer is ethically sourced
-              and environmentally responsible. By supporting local supply chains, we not only ensure quality but also
-              help strengthen our community and encourage sustainable growth across generations.
+              I work closely with millers and local farmers to make sure everything is made with care, in a way that’s clean and respectful to nature. By supporting local producers, we not only keep the quality high but also help our community grow strong for the future.
             </p>
           </div>
           <div className="about-section-image">
@@ -71,7 +59,7 @@ function AboutUs() {
         </section>
 
         <section className="about-values">
-          <h2>Our Values</h2>
+          <h2>हाम्रा मूल्यहरू</h2>
           <div className="about-values-grid">
             <div className="about-value-card">
               <div className="about-value-icon">
@@ -90,10 +78,9 @@ function AboutUs() {
                   <polyline points="22 4 12 14.01 9 11.01"></polyline>
                 </svg>
               </div>
-              <h3>Quality</h3>
+              <h3>शुद्धता</h3>
               <p>
-                Every item is selected or produced with care—from hand-milled grains to pure oils. Our customers trust
-                us for uncompromised quality, every time.
+                We sell food that is clean and made properly. What we give to you is what we use at home. We check everything ourselves before it reaches your hands.
               </p>
             </div>
             <div className="about-value-card">
@@ -115,10 +102,11 @@ function AboutUs() {
                   <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
                 </svg>
               </div>
-              <h3>Community</h3>
+              <h3>सम्बन्ध</h3>
               <p>
-                We've served generations of families in Kathmandu and beyond. Supporting local producers and offering
-                real value to our customers is part of our identity.
+                We work with local farmers and families. Our store has grown with the people around us.
+
+These ties are what keep our work honest and strong.
               </p>
             </div>
             <div className="about-value-card">
@@ -137,10 +125,11 @@ function AboutUs() {
                   <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
                 </svg>
               </div>
-              <h3>Trust</h3>
+              <h3>विश्वास</h3>
               <p>
-                Our name carries the trust of four generations. Customers know that what we offer is honest, tested, and
-                true to its roots.
+               People trust us because we do things the right way. We keep our word and keep things simple.
+
+That trust is what we care about the most.
               </p>
             </div>
             <div className="about-value-card">
@@ -162,17 +151,18 @@ function AboutUs() {
                   <line x1="15" y1="9" x2="15.01" y2="9"></line>
                 </svg>
               </div>
-              <h3>Service</h3>
+              <h3>सेवा</h3>
               <p>
-                From personalized advice to doorstep delivery, we provide customer care that's been part of our culture
-                since day one.
+               We are here to help. Whether it’s a small need or home delivery, we try our best every day.
+
+Serving you well is our main mission.
               </p>
             </div>
           </div>
         </section>
 
         <section className="about-gallery">
-          <h2>Our Store</h2>
+          <h2>हाम्रो पसल</h2>
           <div className="about-gallery-grid">
             <div className="about-gallery-item">
               <img
