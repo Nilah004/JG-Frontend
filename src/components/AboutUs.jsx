@@ -72,7 +72,7 @@ function AboutUs() {
                 alt="Dinesh Laal in his shop"
               />
               <div className="image-caption">
-                <p>Dinesh Laal at his traditional grocery store</p>
+                <p>Dinesh Laal at his grocery store</p>
               </div>
             </div>
           </div>
