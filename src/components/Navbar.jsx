@@ -61,14 +61,17 @@ function Navbar() {
       <div className="grocery-main-navbar">
         <div className="grocery-container">
           <Link to="/" className="grocery-logo" onClick={handleNavLinkClick}>
-            <img
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-mpNFhkKreRSUgEDGjILON9SSTQ8q9C.png"
-              alt="JG Store Logo"
-              className="grocery-logo-image"
-            />
+            <div className="logo-badge">
+              <img
+                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-mpNFhkKreRSUgEDGjILON9SSTQ8q9C.png"
+                alt="JG Store Logo"
+                className="grocery-logo-image"
+              />
+            </div>
             <div className="grocery-logo-text">JG Store</div>
           </Link>
 
+          {/* Search container is back inside main-navbar for desktop and mobile wrapping */}
           <div className="grocery-search-container">
             <form onSubmit={handleSearch} className="grocery-search-bar">
               <SearchIcon className="grocery-search-icon" size={18} />

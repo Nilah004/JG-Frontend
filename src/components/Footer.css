@@ -1,14 +1,15 @@
+/* Footer - Updated to match navbar theme */
 .footer {
   font-family: "Poppins", sans-serif;
-  background-color: #f8f8f8;
-  color: #333;
+  background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
+  color: #2d5016;
   width: 100%;
 }
 
 .footer-top {
   padding: 60px 0 40px;
-  background-color: #f8f8f8;
-  border-top: 1px solid #e9ecef;
+  background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
+  border-top: 2px solid rgba(255, 140, 66, 0.2);
 }
 
 .footer-container {
@@ -47,14 +48,14 @@
 }
 
 .footer-logo-image {
-  height: 50px; /* Increased from 40px */
+  height: 50px;
   width: auto;
-  max-width: 140px; /* Increased from 120px */
+  max-width: 140px;
   object-fit: contain;
 }
 
 .footer-heading {
-  color: #333;
+  color: #2d5016;
   font-size: 18px;
   font-weight: 600;
   margin: 0;
@@ -69,7 +70,7 @@
   bottom: 0;
   width: 40px;
   height: 3px;
-  background-color: #c22126;
+  background: linear-gradient(90deg, #ff8c42, #2d5016);
 }
 
 /* Override for logo heading - no underline */
@@ -103,16 +104,18 @@
   height: 36px;
   border-radius: 50%;
   background-color: #fff;
-  color: #c22126;
+  color: #ff8c42;
   transition: all 0.3s ease;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 140, 66, 0.2);
 }
 
 .social-icon:hover {
-  background-color: #c22126;
+  background: linear-gradient(135deg, #ff8c42, #ff7a2b);
   color: #fff;
   transform: translateY(-3px);
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 6px 20px rgba(255, 140, 66, 0.3);
+  border-color: #ff8c42;
 }
 
 .footer-links {
@@ -129,25 +132,26 @@
   color: #666;
   text-decoration: none;
   font-size: 14px;
-  transition: all 0.2s;
+  transition: all 0.3s ease;
   display: inline-block;
   position: relative;
+  padding: 4px 0;
 }
 
 .footer-links a::after {
   content: "";
   position: absolute;
   width: 0;
-  height: 1px;
-  bottom: -2px;
+  height: 2px;
+  bottom: 0;
   left: 0;
-  background-color: #c22126;
+  background: linear-gradient(90deg, #ff8c42, #2d5016);
   transition: width 0.3s ease;
 }
 
 .footer-links a:hover {
-  color: #c22126;
-  padding-left: 5px;
+  color: #2d5016;
+  padding-left: 8px;
 }
 
 .footer-links a:hover::after {
@@ -173,9 +177,10 @@
   width: 36px;
   height: 36px;
   border-radius: 50%;
-  background-color: rgba(194, 33, 38, 0.1);
-  color: #c22126;
+  background: linear-gradient(135deg, rgba(255, 140, 66, 0.1), rgba(45, 80, 22, 0.05));
+  color: #ff8c42;
   flex-shrink: 0;
+  border: 1px solid rgba(255, 140, 66, 0.2);
 }
 
 .contact-text {
@@ -192,27 +197,29 @@
   display: inline-flex;
   align-items: center;
   gap: 10px;
-  background-color: #25d366;
+  background: linear-gradient(135deg, #25d366, #128c7e);
   color: white;
   text-decoration: none;
-  padding: 10px 16px;
-  border-radius: 6px;
+  padding: 12px 18px;
+  border-radius: 8px;
   margin-top: 20px;
-  font-weight: 500;
-  transition: background-color 0.3s;
+  font-weight: 600;
+  transition: all 0.3s ease;
   font-size: 14px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 12px rgba(37, 211, 102, 0.3);
+  letter-spacing: 0.5px;
 }
 
 .whatsapp-button:hover {
-  background-color: #128c7e;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  background: linear-gradient(135deg, #128c7e, #0d7377);
+  box-shadow: 0 6px 20px rgba(37, 211, 102, 0.4);
+  transform: translateY(-2px);
 }
 
 .footer-bottom {
-  background-color: #fff;
+  background: linear-gradient(135deg, #2d5016 0%, #1a3009 100%);
   padding: 20px 0;
-  border-top: 1px solid #e9ecef;
+  border-top: 2px solid #ff8c42;
 }
 
 .footer-bottom .footer-container {
@@ -224,15 +231,23 @@
 
 .copyright {
   font-size: 14px;
-  color: #666;
+  color: white;
   margin: 0;
   cursor: pointer;
+  opacity: 0.9;
 }
 
 .developer-credit {
   font-size: 14px;
-  color: #666;
+  color: white;
   margin: 0;
+  opacity: 0.9;
+}
+
+.developer-credit:hover,
+.copyright:hover {
+  opacity: 1;
+  color: #ff8c42;
 }
 
 /* Responsive Styles */
@@ -319,8 +334,8 @@
   }
 
   .footer-logo-image {
-    height: 42px; /* Increased from 35px */
-    max-width: 115px; /* Increased from 100px */
+    height: 42px;
+    max-width: 115px;
   }
 
   .contact-item {
@@ -353,8 +368,8 @@
   }
 
   .footer-logo-image {
-    height: 38px; /* Increased from 32px */
-    max-width: 105px; /* Increased from 90px */
+    height: 38px;
+    max-width: 105px;
   }
 
   .contact-item {
@@ -395,8 +410,8 @@
   }
 
   .footer-logo-image {
-    height: 32px; /* Increased from 28px */
-    max-width: 90px; /* Increased from 80px */
+    height: 32px;
+    max-width: 90px;
   }
 
   .contact-icon {
