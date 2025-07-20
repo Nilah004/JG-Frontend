@@ -22,7 +22,7 @@
 .latest-title {
   font-size: 24px;
   font-weight: 700;
-  color: #2d5016;
+  color: #60bb46;
   position: relative;
   padding-bottom: 10px;
 }
@@ -34,7 +34,7 @@
   left: 0;
   width: 60px;
   height: 3px;
-  background: linear-gradient(90deg, #ff8c42, #2d5016);
+  background: linear-gradient(90deg, #ff8c42, #60bb46);
 }
 
 .latest-view-all {
@@ -49,13 +49,14 @@
 }
 
 .latest-view-all:hover {
-  color: #2d5016;
+  color: #60bb46;
   background-color: rgba(255, 140, 66, 0.1);
   border-color: #ff8c42;
   text-decoration: none;
   transform: translateY(-1px);
 }
 
+/* Carousel */
 .latest-carousel-container {
   position: relative;
   display: flex;
@@ -78,7 +79,7 @@
   z-index: 10;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
-  color: #2d5016;
+  color: #60bb46;
 }
 
 .latest-carousel-arrow:hover {
@@ -118,7 +119,7 @@
 }
 
 .latest-grid::-webkit-scrollbar-thumb {
-  background: linear-gradient(90deg, #ff8c42, #2d5016);
+  background: linear-gradient(90deg, #ff8c42, #60bb46);
   border-radius: 2px;
 }
 
@@ -126,6 +127,7 @@
   background: linear-gradient(90deg, #ff7a2b, #1a3009);
 }
 
+/* Product Card */
 .latest-card {
   background-color: white;
   border-radius: 12px;
@@ -192,9 +194,10 @@
   font-weight: 600;
   padding: 6px 12px;
   border-radius: 6px 0 0 0;
-  background: linear-gradient(135deg, rgba(45, 80, 22, 0.9), rgba(26, 48, 9, 0.9));
+  background: linear-gradient(135deg, rgba(96, 187, 70, 0.9), rgba(26, 48, 9, 0.9));
 }
 
+/* Info Block */
 .latest-info {
   padding: 20px;
   display: flex;
@@ -205,7 +208,7 @@
 .latest-name {
   font-size: 16px;
   font-weight: 600;
-  color: #2d5016;
+  color: #60bb46;
   margin: 0 0 8px;
   line-height: 1.4;
   height: 44px;
@@ -218,7 +221,7 @@
 .latest-category {
   font-size: 12px;
   color: #666;
-  background: linear-gradient(135deg, rgba(255, 140, 66, 0.1), rgba(45, 80, 22, 0.05));
+  background: linear-gradient(135deg, rgba(255, 140, 66, 0.1), rgba(96, 187, 70, 0.05));
   display: inline-block;
   padding: 4px 10px;
   border-radius: 6px;
@@ -228,6 +231,7 @@
   border: 1px solid rgba(255, 140, 66, 0.2);
 }
 
+/* Pricing */
 .latest-price {
   display: flex;
   align-items: center;
@@ -238,7 +242,7 @@
 .latest-current-price {
   font-size: 18px;
   font-weight: 700;
-  color: #2d5016;
+  color: #60bb46;
 }
 
 .latest-original-price {
@@ -247,6 +251,7 @@
   text-decoration: line-through;
 }
 
+/* Buttons */
 .latest-actions {
   margin-top: auto;
 }
@@ -264,7 +269,7 @@
   border-radius: 6px;
   padding: 12px 0;
   font-size: 12px;
-  font-weight: 600;
+  font-weight: 400; /* Changed from 600 to 400 */
   cursor: pointer;
   transition: all 0.3s ease;
   text-transform: uppercase;
@@ -285,33 +290,31 @@
 }
 
 .latest-buy-btn {
-  background: linear-gradient(135deg, #2d5016, #1a3009);
+  background: linear-gradient(135deg, #60bb46, #1a3009);
   color: white;
-  box-shadow: 0 2px 6px rgba(45, 80, 22, 0.3);
+  box-shadow: 0 2px 6px rgba(96, 187, 70, 0.3);
 }
 
 .latest-buy-btn:hover {
   background: linear-gradient(135deg, #1a3009, #0f1a05);
   transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(45, 80, 22, 0.4);
+  box-shadow: 0 4px 12px rgba(96, 187, 70, 0.4);
 }
 
+/* Mobile Optimizations */
 @media (max-width: 768px) {
   .latest-carousel-arrow {
     width: 36px;
     height: 36px;
   }
-
   .latest-card {
     flex: 0 0 260px;
     width: 260px;
     height: 380px;
   }
-
   .latest-image-container {
     height: 180px;
   }
-
   .latest-title {
     font-size: 20px;
     max-width: 70%;
@@ -323,47 +326,37 @@
     width: 32px;
     height: 32px;
   }
-
   .latest-card {
     flex: 0 0 220px;
     width: 220px;
     height: auto;
   }
-
   .latest-image-container {
     height: 160px;
   }
-
   .latest-info {
     padding: 14px;
   }
-
   .latest-name {
     font-size: 14px;
   }
-
   .latest-current-price {
     font-size: 16px;
   }
-
   .latest-original-price {
     font-size: 12px;
   }
-
   .latest-buttons {
     gap: 6px;
   }
-
   .latest-cart-btn,
   .latest-buy-btn {
     font-size: 10px;
     padding: 8px 0;
   }
-
   .latest-price {
     margin-bottom: 10px;
   }
-
   .latest-actions {
     margin-top: 6px;
   }

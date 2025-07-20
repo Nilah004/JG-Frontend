@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react"
 import { useLocation, useNavigate } from "react-router-dom"
 import ProductCard from "../components/ProductCard"
-import "./ProductsPage.css"
+
 
 function ProductsPage() {
   const location = useLocation()
