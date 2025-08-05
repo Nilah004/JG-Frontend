@@ -107,7 +107,7 @@ const EditProduct = () => {
     setFormData((prevFormData) => {
       const newFormData = {
         ...prevFormData,
-        [name]: type === "checkbox" ? (checked ? 1 : 0) : value, // Convert boolean to 1 or 0 for stock
+         [name]: type === "checkbox" ? !!checked : value,// Convert boolean to 1 or 0 for stock
       }
 
       // Recalculate discount if price or salePrice changes and onSale is true

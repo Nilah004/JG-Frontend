@@ -4,7 +4,7 @@ import { useState, useEffect } from "react"
 import { useNavigate } from "react-router-dom"
 import "./ProductForm.css"
 
-const AddProductEnhanced = () => {
+const AddProduct = () => {
   const navigate = useNavigate()
   const [categories, setCategories] = useState([])
   const [isSubmitting, setIsSubmitting] = useState(false)
@@ -59,7 +59,8 @@ const AddProductEnhanced = () => {
     const { name, value, type, checked } = e.target
     setFormData((prevFormData) => ({
       ...prevFormData,
-      [name]: type === "checkbox" ? (checked ? 1 : 0) : value, // Convert boolean to 1 or 0 for stock
+      [name]: type === "checkbox" ? !!checked : value,
+ // Convert boolean to 1 or 0 for stock
     }))
     if (name === "price" && formData.onSale) {
       calculateDiscount(value, formData.salePrice)
@@ -516,4 +517,4 @@ const AddProductEnhanced = () => {
   )
 }
 
-export default AddProductEnhanced
+export default AddProduct
